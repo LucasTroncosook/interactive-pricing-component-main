@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+
+  <section class="pattern"></section>
+
+  <main class="main">
+    <section>
+      <section class="main-text">
+        <h1>Simple, traffic-based pricing</h1>
+        <span>Sign-up for our 30-day trial. No credit card required.</span>
+      </section>
+      <section class="main-container">
+        <section class="container">
+          <div class="conatiner-header">
+            <span id="pageviews">100k pageviews</span>
+            <div class="conatiner-header-text">
+              <h2 id="price-h2">$16.00</h2>
+              <span id="moy">/ month</span>
+            </div> 
+          </div>
+          <section class="container-ranger">
+            <input type="range" min="0" max="32" id="range">
+          </section>
+          <section class="month-year-container">
+            <span>Monthly Billing</span>
+            <label class="switch">
+              <input type="checkbox" id="checkbox">
+              <span class="slider"></span>
+            </label>
+            <span>Yearly Billing</span>
+            <span>25% discount</span>
+          </section>
+          <section class="container-start">
+            <section class="container-start-text">
+              <ul>
+                <li><img src="./images/icon-check.svg" alt="icon-check"> <span>Unlimited websites</span></li>
+                <li><img src="./images/icon-check.svg" alt="icon-check"> <span>100% data ownership</span></li>
+                <li><img src="./images/icon-check.svg" alt="icon-check"> <span>Email reports</span></li>
+              </ul>
+            </section>
+            <a href="#">Start my trial</a>
+          </section>
+        </section>
+      </section>
+    </section>
+  </main>
+  <script src="./js/pageviews.js"></script>
+</body>
+</html>
